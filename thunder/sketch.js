@@ -7,7 +7,7 @@ function setup() {
 function draw() {
 
   fill(110+sin(frameCount*0.09)*110);
-  if (keyIsPressed) {
+  if (mouseIsPressed) {
     stroke(205,205,0);
   }
   else {
@@ -18,6 +18,6 @@ function draw() {
   textStyle(BOLD);
   textAlign(CENTER);
   background(248);
-  text("thunderstorms",windowWidth / 2, windowHeight / 2);
+  text("thunderstorms",400 / 2, 400 / 2);
   
 }
