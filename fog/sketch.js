@@ -15,6 +15,6 @@ function draw() {
   textStyle(BOLD);
   textAlign(CENTER);
   background(248);
-  text("fog",windowWidth / 2, windowHeight / 2);
+  text("fog",400 / 2, 400 / 2);
   
 }
