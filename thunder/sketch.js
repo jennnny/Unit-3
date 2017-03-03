@@ -9,7 +9,7 @@ function draw() {
   fill(110+sin(frameCount*0.09)*110);
   if (mouseIsPressed) {
     stroke(205,205,0);
-    strokeWeight(2);
+    strokeWeight(3);
   }
   else {
     noStroke();
